@@ -4,14 +4,17 @@ const Header = ()=>{
 
 
     return (
-        <div>
-            <div>
-            <h1>María Molina García</h1>
-            <h2>FrontEnd developer</h2>
+        <div className='header'>
+            <div className='header__image'>
+                <img className='header__image--photo' src={imgMaría} alt="" title="" width="200px"/>
+            </div> 
+            <div className='header__titles'>
+                <h1>María Molina García</h1>
+                <div className='header__titles--h2'>
+                <h2>Front-End developer</h2>
+                </div>
             </div>
-            <div>
-                <img src={imgMaría} alt="" title="" width="200px"/>
-            </div>
+           
 
         </div>
     )
