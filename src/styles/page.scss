@@ -7,25 +7,22 @@
 }
 
 h1 {
-  font-family: "Source Sans Pro", sans-serif;
   font-weight: 600;
   color: $titles-color;
   font-size: 48px;
   text-transform: uppercase;
+  line-height: 1.1;
 }
 
 h2 {
-  font-family: "Source Sans Pro", sans-serif;
   font-weight: 200;
   color: white;
   font-size: 20px;
-
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
 h3 {
-  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   color: $titles-color;
   font-size: 18px;
