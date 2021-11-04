@@ -20,6 +20,9 @@
   }
   &__titles {
     line-height: 1.4;
+    & h1 {
+      width: 13ch;
+    }
     &--h2 {
       width: 300px;
       background-color: $second-background-color;
