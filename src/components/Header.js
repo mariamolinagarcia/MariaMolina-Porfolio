@@ -1,4 +1,4 @@
-import imgMaría from '../images/MaríaMolinaFoto.jpg';
+import imgMaria from '../images/MariaMolinaFoto.jpg';
 import '../styles/header.scss';
 const Header = ()=>{
 
@@ -6,7 +6,7 @@ const Header = ()=>{
     return (
         <div className='header'>
             <div className='header__image'>
-                <img className='header__image--photo' src={imgMaría} alt="" title="" width="200px"/>
+                <img className='header__image--photo' src={imgMaria} alt="" title="" width="200px"/>
             </div> 
             <div className='header__titles'>
                 <h1>María Molina García</h1>
