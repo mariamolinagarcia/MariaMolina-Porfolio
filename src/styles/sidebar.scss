@@ -1,17 +1,21 @@
 @import "./variables.scss";
 
-.sidebar {
+.nav {
   position: fixed;
   top: 0px;
   left: 0px;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
   color: white;
   line-height: 2.4;
-  background-color: $second-background-color;
+  display: flex;
 
   &__burger {
+    width: 50px;
+    //display: block;
+    cursor: pointer;
+    background-color: rgba($color: $second-background-color, $alpha: 0.8);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     @media (min-width: 768px) {
       display: none;
     }
@@ -19,11 +23,34 @@
       width: 45px;
     }
   }
-  &__nav {
-    padding: 20px 50px 20px 20px;
-  }
-}
 
-.hidden {
-  display: none;
+  &__list {
+    &.active {
+      display: flex;
+    }
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: auto auto;
+    height: 92vh;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 600;
+    background-color: rgba($color: $second-background-color, $alpha: 0.8);
+    display: none;
+
+    // @media (min-width: 768px) {
+    // }
+    &--item {
+      text-align: center;
+      padding-left: 100px;
+      padding-right: 100px;
+      transition: background-color ease 0.3s;
+    }
+    &--item:hover {
+      background-color: rgba($color: #ffffff, $alpha: 0.5);
+      //opacity: 0.5;
+      text-shadow: 1px 1px grey;
+      border-radius: 4px;
+    }
+  }
 }

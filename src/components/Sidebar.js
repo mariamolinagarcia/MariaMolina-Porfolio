@@ -3,48 +3,54 @@ import '../styles/sidebar.scss';
 import { useState } from 'react';
 const Sidebar = ()=>{
 
-  const [burgerMenu, setBurgerMenu ] = useState('hidden');
+  
 
-  const showBurgerMenu =()=>{
-    if(burgerMenu === 'hidden'){
-      setBurgerMenu('');
+   const [burgerMenu, setBurgerMenu ] = useState('');
 
-    }else{
-      setBurgerMenu('hidden');
-    }
-  }
+   const showBurgerMenu =()=>{
+     if(burgerMenu === 'active'){
+       setBurgerMenu('');
+
+     }else{
+       setBurgerMenu('active');
+     }
+   }
+  
 
     return (
-    <div className='sidebar'>
-      <div className='sidebar__burger' onClick={showBurgerMenu}>
-        <img className='sidebar__burger--img' src={burger} alt='menu burger' title='menu burger' />
+    
+     
+      <nav className='nav'>
+         <div className='nav__burger' onClick={showBurgerMenu}>
+        <img className='nav__burger--img' src={burger} alt='menu burger' title='menu burger' />
       </div>
-      <nav className={`sidebar__nav ${burgerMenu}`}>
-        <ul>
-          Sobre mí
-          <li>
+
+      <ul className={`nav__list ${burgerMenu} `}>
+          
+          <li className='nav__list--item'>
+            Sobre mí
           </li>
-          <li>
+          <li className='nav__list--item'>
           Experiencia
           </li>
-          <li>
+          <li className='nav__list--item'>
           Formación
           </li>
-          <li>
+          <li className='nav__list--item'>
           Aptitudes
           </li>
-          <li>
+          <li className='nav__list--item'>
           Proyectos
           </li>
-          <li>
+          <li className='nav__list--item'>
           Sobre mí
           </li>
-          <li>
+          <li className='nav__list--item'>
           Contacto
           </li>
         </ul>
       </nav>
-  </div>  
+  
         
     )
 }
