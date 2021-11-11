@@ -1,3 +1,4 @@
+import Name from './Name'
 import AboutMe from './AboutMe';
 import Experience from './Experience';
 import Projects from './Projects';
@@ -11,6 +12,7 @@ const Main = ()=>{
 
     return (
         <div className='main'>
+            <Name />
             <AboutMe />
             <Training />
 

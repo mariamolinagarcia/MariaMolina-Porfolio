@@ -8,12 +8,7 @@ const Header = ()=>{
             <div className='header__image'>
                 <img className='header__image--photo' src={imgMaria} alt="" title="" width="200px"/>
             </div> 
-            <div className='header__titles'>
-                <h1>María Molina García</h1>
-                <div className='header__titles--h2'>
-                <h2>Front-End developer</h2>
-                </div>
-            </div>
+            
            
 
         </div>

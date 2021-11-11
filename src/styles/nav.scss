@@ -7,10 +7,14 @@
   color: white;
   line-height: 2.4;
   display: flex;
+  @media (min-width: 768px) {
+    top: 328px;
+    width: 280px;
+  }
 
   &__burger {
     width: 50px;
-    //display: block;
+
     cursor: pointer;
     background-color: rgba($color: $second-background-color, $alpha: 0.8);
     padding-top: 20px;
@@ -38,8 +42,13 @@
     background-color: rgba($color: $second-background-color, $alpha: 0.8);
     display: none;
 
-    // @media (min-width: 768px) {
-    // }
+    @media (min-width: 768px) {
+      display: flex;
+      background-color: rgba($color: $second-background-color, $alpha: 1);
+      grid-column: 1;
+      grid-row: 2;
+      justify-content: stretch;
+    }
     &--item {
       text-align: center;
       padding-left: 100px;

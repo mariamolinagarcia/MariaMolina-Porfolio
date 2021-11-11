@@ -1,5 +1,5 @@
 import burger from '../images/menu-icon.png';
-import '../styles/sidebar.scss';
+import '../styles/nav.scss';
 import { useState } from 'react';
 const Sidebar = ()=>{
 

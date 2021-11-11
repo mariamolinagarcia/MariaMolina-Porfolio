@@ -5,6 +5,9 @@
   font-family: "Source Sans Pro", sans-serif;
   color: $second-background-color;
   line-height: 1.4;
+  @media (min-width: 768px) {
+    display: flex;
+  }
 }
 
 h1 {
