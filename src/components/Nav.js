@@ -22,7 +22,7 @@ const Sidebar = ()=>{
      
       <nav className='nav'>
          <div className='nav__burger' onClick={showBurgerMenu}>
-        <img className='nav__burger--img' src={burger} alt='menu burger' title='menu burger' />
+         <i class="fas fa-hamburger"></i>
       </div>
 
       <ul className={`nav__list ${burgerMenu} `}>
