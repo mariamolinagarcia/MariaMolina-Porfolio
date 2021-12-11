@@ -1,9 +1,10 @@
+import '../styles/experience.scss';
 
 const Experience = ()=>{
 
 
     return (
-        <div>
+        <div className='experience' id='experience'>
             <h3><i class="fas fa-briefcase"></i> Experiencia / Work Experience</h3>
             
 

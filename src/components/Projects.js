@@ -1,9 +1,10 @@
+import '../styles/projects.scss';
 
 const Projects = ()=>{
 
 
     return (
-        <div>
+        <div className='projects' id='projects'>
             <h3><i class="fas fa-folder-open"></i> Proyectos</h3>
             <ul>
                 <li>1</li>

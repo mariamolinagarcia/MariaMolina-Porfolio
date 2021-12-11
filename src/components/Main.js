@@ -15,10 +15,9 @@ const Main = ()=>{
             
             <AboutMe />
             <Training />
-
             <Experience />
-            <Projects />
             <Skills />
+            <Projects />
             <Contact />
 
         </div>

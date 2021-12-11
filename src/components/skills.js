@@ -1,8 +1,10 @@
+import '../styles/skills.scss';
+
 const Skills = ()=>{
 
 
     return (
-        <div>
+        <div className='skills' id='skills'>
             <h3><i class="fas fa-code"></i> Aptitudes / Skills</h3>
             
             <h4>Desarrollo web</h4>

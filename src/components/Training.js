@@ -4,7 +4,7 @@ const Training = ()=>{
 
 
     return (
-        <div className='training'>
+        <div className='training' id='training'>
            <h3><i class="fas fa-brain"></i> Formación / Training</h3>
             <h4>Adalab bootcamp desarrollo web - 2021</h4>
             <ul className='training__list'>

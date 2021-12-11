@@ -2,15 +2,37 @@
 
 .aboutme {
   display: flex;
+  flex-direction: column;
   height: 100vh;
 
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+  &__text {
+    order: 2;
+    @media (min-width: 768px) {
+      order: 1;
+    }
+  }
+
   &__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 50px;
     margin: 20px;
     background-color: $second-background-color;
     border-radius: 50%;
     box-shadow: 1px 1px 1px 1px rgb(41, 41, 41);
     height: 250px;
+    width: 200px;
+    order: 1;
+    @media (min-width: 768px) {
+      order: 2;
+    }
 
     &--photo {
       border-radius: 50%;

@@ -1,13 +1,9 @@
 @import "./variables.scss";
 
-.training {
+.experience {
   display: flex;
   flex-direction: column;
   height: 100vh;
 
   justify-content: center;
-
-  &__list {
-    padding: 30px;
-  }
 }

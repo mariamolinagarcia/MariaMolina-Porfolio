@@ -27,26 +27,26 @@ const Sidebar = ()=>{
 
       <ul className={`nav__list ${burgerMenu} `}>
       <li className='nav__list--item'>
-      <i class="fas fa-home"></i>
+      <a href='#'><i class="fas fa-home"></i></a>
           </li>
           <li className='nav__list--item'>
-            Sobre mí
+            <a href='#aboutme'>Sobre mí</a>
           </li>
           <li className='nav__list--item'>
-          Experiencia
+          <a href='#training'>Formación</a>
           </li>
           <li className='nav__list--item'>
-          Formación
+          <a href='#experience'>Experiencia</a>
           </li>
           <li className='nav__list--item'>
-          Aptitudes
+          <a href='#skills'>Aptitudes</a>
           </li>
           <li className='nav__list--item'>
-          Proyectos
+          <a href='#projects'>Proyectos</a>
           </li>
           
           <li className='nav__list--item'>
-          Contacto
+          <a href='#contact'>Contacto</a>
           </li>
         </ul>
       </nav>
