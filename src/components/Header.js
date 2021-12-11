@@ -1,13 +1,14 @@
-import imgMaria from '../images/MariaMolinaFoto.jpg';
+
 import '../styles/header.scss';
 import Name from './Name';
+import Nav from'./Nav';
 const Header = ()=>{
 
 
     return (
         <div className='header'>
            
-           
+           <Nav />
             <Name /> 
             
            

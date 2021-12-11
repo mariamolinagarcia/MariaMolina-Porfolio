@@ -3,7 +3,7 @@
 .page {
   background-color: $background-color;
   font-family: "Fira Code", monospace;
-  color: $second-background-color;
+  color: $paragraph-color;
   line-height: 1.4;
 }
 
@@ -37,10 +37,16 @@ h4 {
   font-size: 16px;
   font-weight: 600;
   color: $titles-color;
-  margin: 10px 0px 10px 0px;
+  margin: 10px 0px 0px 0px;
   text-transform: capitalize;
+  padding-left: 20px;
 }
 
 p {
   color: $paragraph-color;
+  padding: 20px;
+}
+
+.fas {
+  font-size: 30px;
 }

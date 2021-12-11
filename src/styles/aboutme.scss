@@ -1,0 +1,19 @@
+@import "./variables.scss";
+
+.aboutme {
+  display: flex;
+  height: 100vh;
+
+  &__image {
+    padding: 50px;
+    margin: 20px;
+    background-color: $second-background-color;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px 1px rgb(41, 41, 41);
+    height: 250px;
+
+    &--photo {
+      border-radius: 50%;
+    }
+  }
+}

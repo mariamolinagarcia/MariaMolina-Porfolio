@@ -1,0 +1,8 @@
+@import "./variables.scss";
+
+.training {
+  text-align: justify;
+  &__list {
+    padding: 30px;
+  }
+}

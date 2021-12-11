@@ -26,7 +26,9 @@ const Sidebar = ()=>{
       </div>
 
       <ul className={`nav__list ${burgerMenu} `}>
-          
+      <li className='nav__list--item'>
+      <i class="fas fa-home"></i>
+          </li>
           <li className='nav__list--item'>
             Sobre mí
           </li>

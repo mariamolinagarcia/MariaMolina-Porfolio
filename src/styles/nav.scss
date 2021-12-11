@@ -4,21 +4,20 @@
   position: fixed;
   top: 0px;
   left: 0px;
-  color: white;
+
   line-height: 2.4;
   display: flex;
   cursor: pointer;
 
   @media (min-width: 768px) {
-    top: 328px;
-    width: 280px;
+    line-height: 1.2;
   }
 
   &__burger {
     width: 50px;
 
     cursor: pointer;
-    background-color: rgba($color: $second-background-color, $alpha: 0.8);
+
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
@@ -46,20 +45,33 @@
     display: none;
 
     @media (min-width: 768px) {
-      justify-content: flex-start;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
       align-items: center;
-      background-color: rgba($color: $second-background-color, $alpha: 1);
+      height: 50px;
+
+      font-size: 12px;
+      font-weight: 400;
+      background-color: $background-color;
     }
     &--item {
       text-align: center;
       padding-left: 100px;
       padding-right: 100px;
       transition: background-color ease 0.3s;
+      @media (min-width: 768px) {
+        padding-left: 20px;
+        padding-right: 20px;
+        & .fas {
+          font-size: 16px;
+        }
+      }
     }
     &--item:hover {
-      background-color: rgba($color: #ffffff, $alpha: 0.5);
-      //opacity: 0.5;
-      text-shadow: 1px 1px grey;
+      background-color: rgba($color: $second-background-color, $alpha: 1);
+
+      text-shadow: 1px 1px rgb(63, 63, 63);
       border-radius: 4px;
     }
   }
