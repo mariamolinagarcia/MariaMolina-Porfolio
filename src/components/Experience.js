@@ -4,7 +4,7 @@ const Experience = ()=>{
 
     return (
         <div>
-            <h3>Experiencia / Work Experience</h3>
+            <h3><i class="fas fa-briefcase"></i> Experiencia / Work Experience</h3>
             
 
         </div>

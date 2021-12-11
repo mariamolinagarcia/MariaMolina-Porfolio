@@ -42,9 +42,7 @@ const Sidebar = ()=>{
           <li className='nav__list--item'>
           Proyectos
           </li>
-          <li className='nav__list--item'>
-          Sobre mí
-          </li>
+          
           <li className='nav__list--item'>
           Contacto
           </li>

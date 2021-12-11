@@ -4,7 +4,7 @@ const Projects = ()=>{
 
     return (
         <div>
-            <h3>Proyectos</h3>
+            <h3><i class="fas fa-folder-open"></i>Proyectos</h3>
             <ul>
                 <li>1</li>
                 <li>2</li>

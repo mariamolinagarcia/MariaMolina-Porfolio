@@ -12,7 +12,7 @@ const Main = ()=>{
 
     return (
         <div className='main'>
-            <Name />
+            
             <AboutMe />
             <Training />
 

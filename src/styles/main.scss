@@ -5,4 +5,10 @@
   @media (min-width: 768px) {
     grid-column: 2;
   }
+  & h2 {
+    margin: 20px 0px 20px 0px;
+  }
+  & p {
+    margin-bottom: 40px;
+  }
 }
