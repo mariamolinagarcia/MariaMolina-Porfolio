@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "./static/css/main.df2ebb43.chunk.css",
+    "main.js": "./static/js/main.76f207e1.chunk.js",
+    "main.js.map": "./static/js/main.76f207e1.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.7ad783a2.js",
+    "runtime-main.js.map": "./static/js/runtime-main.7ad783a2.js.map",
+    "static/js/2.768438b8.chunk.js": "./static/js/2.768438b8.chunk.js",
+    "static/js/2.768438b8.chunk.js.map": "./static/js/2.768438b8.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.df2ebb43.chunk.css.map": "./static/css/main.df2ebb43.chunk.css.map",
+    "static/js/2.768438b8.chunk.js.LICENSE.txt": "./static/js/2.768438b8.chunk.js.LICENSE.txt",
+    "static/media/JS-Vanila-Buscador_de_series-detalle.3ade6bba.png": "./static/media/JS-Vanila-Buscador_de_series-detalle.3ade6bba.png",
+    "static/media/Landing-Awesome_profile-cards.23777b08.png": "./static/media/Landing-Awesome_profile-cards.23777b08.png",
+    "static/media/MariaMolinaFoto.50fffa2e.jpg": "./static/media/MariaMolinaFoto.50fffa2e.jpg",
+    "static/media/Migracion-React-servidor-express.c23b1804.png": "./static/media/Migracion-React-servidor-express.c23b1804.png",
+    "static/media/Módulo_1_Evaluación_final.a1023f2b.png": "./static/media/Módulo_1_Evaluación_final.a1023f2b.png",
+    "static/media/RickandMorty.7ff940a0.png": "./static/media/RickandMorty.7ff940a0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7ad783a2.js",
+    "static/js/2.768438b8.chunk.js",
+    "static/css/main.df2ebb43.chunk.css",
+    "static/js/main.76f207e1.chunk.js"
+  ]
+}
