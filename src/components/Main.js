@@ -1,6 +1,6 @@
 import Name from './Name'
 import AboutMe from './AboutMe';
-import Experience from './Experience';
+
 import Projects from './Projects';
 import Contact from './Contact';
 import Training from './Training';
@@ -15,7 +15,7 @@ const Main = ()=>{
             
             <AboutMe />
             <Training />
-            <Experience />
+            
             <Skills />
             <Projects />
             <Contact />

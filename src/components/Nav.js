@@ -1,4 +1,4 @@
-import burger from '../images/menu-icon.png';
+
 import '../styles/nav.scss';
 import { useState } from 'react';
 const Sidebar = ()=>{
@@ -35,9 +35,7 @@ const Sidebar = ()=>{
           <li className='nav__list--item'>
           <a href='#training'>Formación</a>
           </li>
-          <li className='nav__list--item'>
-          <a href='#experience'>Experiencia</a>
-          </li>
+          
           <li className='nav__list--item'>
           <a href='#skills'>Aptitudes</a>
           </li>
