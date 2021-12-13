@@ -69,10 +69,18 @@
       & .fab {
         font-size: 80px;
         color: $paragraph-color;
+        transition: ease font-size 0.6s;
+      }
+      & .fab:hover {
+        font-size: 90px;
       }
       & .fas {
         font-size: 80px;
         color: $paragraph-color;
+        transition: ease font-size 0.6s;
+      }
+      & .fas:hover {
+        font-size: 90px;
       }
     }
   }

@@ -16,7 +16,6 @@ const Projects = ()=>{
     return (
         <div className='projects' id='projects'>
             <h3><i class="fas fa-folder-open"></i> Proyectos</h3>
-            <p></p>
            
            <div className='projects__container'>
             <ul className='projects__grid'>
