@@ -5,7 +5,9 @@
   flex-direction: column;
   height: 100%;
   justify-content: center;
-
+  @media (min-width: 768px) {
+    height: 100vh;
+  }
   & ul {
     padding: 30px;
   }

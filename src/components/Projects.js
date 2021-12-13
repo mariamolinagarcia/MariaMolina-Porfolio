@@ -17,6 +17,8 @@ const Projects = ()=>{
         <div className='projects' id='projects'>
             <h3><i class="fas fa-folder-open"></i> Proyectos</h3>
             <p></p>
+           
+           <div className='projects__container'>
             <ul className='projects__grid'>
                 <li className='projects__grid--item1'>
                 <img className='projects__grid--item1__photo' src={rickAndMorty} alt='' title='' />
@@ -26,7 +28,7 @@ const Projects = ()=>{
                 <li className='projects__grid--item4'><img className='projects__grid--item4__photo' src={landingAwesome} alt='' title='' /></li>
                 <li className='projects__grid--item5'><img className='projects__grid--item5__photo' src={evaluacionMaquetacion} alt='' title='' /></li>
             </ul>
-
+            </div>
         </div>
     )
 }

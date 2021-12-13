@@ -1,10 +1,19 @@
 @import "./reset.scss";
 @import "./variables.scss";
+body {
+  background-color: $second-background-color;
+}
+
 .page {
   background-color: $background-color;
   font-family: "Fira Code", monospace;
   color: $paragraph-color;
   line-height: 1.4;
+
+  @media (min-width: 1200px) {
+    margin-left: 6vw;
+    margin-right: 6vw;
+  }
 }
 
 h1 {

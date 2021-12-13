@@ -1,7 +1,7 @@
 .main {
-  margin-left: 8vw;
-  margin-right: 8vw;
   text-align: justify;
+  padding-left: 6vw;
+  padding-right: 6vw;
   @media (min-width: 768px) {
     grid-column: 2;
   }
